@@ -1,0 +1,7 @@
+<!-- <p *ngFor="let task of tasks" >{{task.text}}</p> -->
+<!-- // ngFor is used for looping over any tag (on whixch it will be applied) -->
+<!-- [task]="task" this thing is used to send that value as 
+    [ ] is used to say that this task is different from the given one
+a property in the task-item 
+-->
+<app-task-item *ngFor="let task of tasks"  [task]="task" (onDeleteTask)="deleteTask(task)" (onToggleReminder)="toggleReminder(task)" ></app-task-item>

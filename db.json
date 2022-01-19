@@ -1,0 +1,28 @@
+{
+  "tasks": [
+    {
+      "id": 1,
+      "text": " Codeforces",
+      "date": "24 jan",
+      "reminder": false
+    },
+    {
+      "id": 2,
+      "text": " Practice Problems - Leetcode",
+      "date": "9pm today",
+      "reminder": true
+    },
+    {
+      "id": 3,
+      "text": " Learn Angular and complete this app",
+      "date": "Before 4pm,Today",
+      "reminder": true
+    },
+    {
+      "id": 4,
+      "text": "This is a test case used for deletion",
+      "date": "Delete Me",
+      "reminder": true
+    }
+  ]
+}
