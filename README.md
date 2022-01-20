@@ -9,7 +9,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 - Run command `ng serve` or `ng serve --open` to start the server to `http://localhost:4200/`.  (This will start **frontend only**)
 - For Backend, **Json Server** should be installed into your system.  (For using Fake API's or local database as used in this project)
 - Run command to install JSON server globally -> `npm install -g json-server`
-- Now open the same folder in another terminal to start the backend server or json server and run `npm sun server`
+- Now open the same folder in another terminal to start the backend server or json server and run `npm run server`
 - All done! You're Good to go
 
 ## Working (Locally)
