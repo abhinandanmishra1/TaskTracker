@@ -2,26 +2,20 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.1.3.
 
-## Development server
+## Steps to run it locally
+- Clone this project using command - `git clone https://github.com/abhinandanmishra1/TaskTracker.git`
+- Make Sure Angular is installed in your system. (If not? then [Install it](https://angular.io/guide/setup-local))
+- Open the folder you clonned in terminal.
+- Run command `ng serve` or `ng serve --open` to start the server to `http://localhost:4200/`.  (This will start **frontend only**)
+- For Backend, **Json Server** should be installed into your system.  (For using Fake API's or local database as used in this project)
+- Run command to install JSON server globally -> `npm install -g json-server`
+- Now open the same folder in another terminal to start the backend server or json server and run `npm sun server`
+- All done! You're Good to go
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## Working (Locally)
 
-## Code scaffolding
+https://user-images.githubusercontent.com/64205626/150132976-de236d86-9267-4a83-90e4-24e05c2aed58.mp4
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Thanks 
 
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+### Documentation Coming Soon ....
