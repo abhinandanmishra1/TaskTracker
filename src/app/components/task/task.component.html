@@ -4,4 +4,5 @@
     [ ] is used to say that this task is different from the given one
 a property in the task-item 
 -->
+<app-add-task (onAddTask)="addTask($event)"></app-add-task>
 <app-task-item *ngFor="let task of tasks"  [task]="task" (onDeleteTask)="deleteTask(task)" (onToggleReminder)="toggleReminder(task)" ></app-task-item>

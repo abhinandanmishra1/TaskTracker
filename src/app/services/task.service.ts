@@ -17,7 +17,7 @@ export class TaskService {
   // observable is something which observes things
   // and make changes 
   // promise
-  private apiUrl="http://localhost:5000/tasks";
+  private apiUrl="http://localhost:7000/tasks";
   constructor(private http:HttpClient) { }
   
   getTasks() :Observable<Task[]>{
@@ -34,5 +34,7 @@ export class TaskService {
 
     return this.http.put<Task>(url,task);
   }
-
+  addTask(task :Task):Observable<Task>{
+    return this.http.post<Task>(this.apiUrl,task);
+  }
 }
