@@ -14,7 +14,11 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## Working (Locally)
 
+# Version 1.0.0
 https://user-images.githubusercontent.com/64205626/150132976-de236d86-9267-4a83-90e4-24e05c2aed58.mp4
+
+# Version 1.0.1
+https://user-images.githubusercontent.com/64205626/150563358-cddda936-093f-41cc-8688-3b2ae3708e1f.mp4
 
 ## Thanks 
 
