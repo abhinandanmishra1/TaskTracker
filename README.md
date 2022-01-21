@@ -22,4 +22,38 @@ https://user-images.githubusercontent.com/64205626/150563358-cddda936-093f-41cc-
 
 ## Thanks 
 
-### Documentation Coming Soon ....
+## Documentation 
+ Prerequisite - CSS,HTML and knowledge of components.
+### **Understanding Basic Working of Angular**
+- What is a component?
+  - Component is nothing but a part of the website or web App. In angular all the components can be made separtely.
+  - For generating a commponent - Run command - `ng generate component components/component_name`.
+  - A component has 4 files or A component is comprised of 4 files
+    1) **Component.html** (Contains Html of that component)
+    2) **Component.css** (All the css of that component)
+    3) **Component.ts** (All the functions related to that component are present in it) (It is a typescript class for a component)
+        - ```import { Component } from '@angular/core';
+            @Component({
+              selector: 'app-sample',
+              templateUrl: './sample.component.html',
+              styleUrls: ['./sample.component.css']
+            })
+            export class SampleComponent {
+              title = 'Understand Angular';
+              // Write here all the functions and variables used in sample.component.html
+            }
+        - This is a normal component code for a component
+        - **selector** means how this component will be called or used in html of other components.
+        - **templateUrl** means corresponding html file of the component.
+        - **styleUrls** means corresponding css files of the component.
+        - SampleComponent class is the part of the typescript file where all the functions related to that component will be written.
+      
+    4) **Component.spec.ts** *(Not used for development)(Only used for testing)*
+- For creating a project in angular - Run command - `ng new app_name`
+- For running an angular app - Run command - `ng serve` or `ng serve --open`.
+- Angular provides a lot of code written by itself (Once you understand it then it will be very easy to make projects)
+- Understand File structure of an angular project - [Read Here](https://angular.io/guide/file-structure)
+
+### Understanding Project(Task-Tracker) 
+Completing soon......
+  
